@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text_to_number_soham_padia"
+version = "0.1.0"
+description = "A package to convert text numbers into integers."
+authors = [
+    {name = "Soham Padia", email = "sohampadia10@gmail.com"},
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+homepage = "https://github.com/soham-padia/textToInt"
+repository = "https://github.com/soham-padia/textToInt"
+documentation = "https://github.com/soham-padia/textToInt/wiki"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6.0",
+    "tox>=3.21"
+]
