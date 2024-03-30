@@ -39,4 +39,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Soham Padia - <sohampadia10@gmail.com>
 
-Project Link: <https://github.com/yourusername/text-to-number>
+Project Link: <https://github.com/soham-padia/textToInt>
