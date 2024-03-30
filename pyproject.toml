@@ -1,9 +1,9 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
-name = "text_to_number_soham_padia"
+name = "text-to-number"
 version = "0.1.0"
 description = "A package to convert text numbers into integers."
 authors = [
@@ -31,3 +31,4 @@ test = [
     "pytest>=6.0",
     "tox>=3.21"
 ]
+
