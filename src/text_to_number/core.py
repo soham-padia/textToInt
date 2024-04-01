@@ -95,7 +95,8 @@ def text_to_number(text):
         num += current  # Add any remaining integer part
         num += decimal_fraction  # Add the decimal fraction part
         
-        return str(num)
+        return str(int(num)) if decimal_fraction == 0 else str(num)
+
 
     # Enhance the pattern to potentially match decimal expressions
     pattern = r'\b(' + '|'.join(english.keys()) + r'|\bpoint\b)(?:[\s-]+(' + '|'.join(english.keys()) + r'|\bpoint\b))*\b'
